@@ -1,0 +1,38 @@
+.review-item{
+ display: flex;
+ width: 80%;
+ border: 2px solid gray;
+ border-radius: 8%;
+ margin-bottom: 3%;
+ padding: 2%;
+ align-items: center;
+}
+.review-item img{
+ width: 40%;
+ height: 100%;
+ margin-right: 2%;
+ border-radius: 5%;
+}
+.orange-text{
+ color: orange;
+}
+.review-details{
+ flex-grow: 1;
+}
+.review-details p{
+ size: calc(1vw + 0.2rem);
+}
+.review-details h4{
+ size: calc(1vw + 1rem);
+}
+
+/* delete btn style */
+.btn-delete{
+ background-color: rgb(247, 158, 158);
+ border-radius: 50%;
+ margin: auto auto;
+ color: rgb(255, 63, 63);
+}
+.btn-delete:hover{
+ background-color: black;
+}
