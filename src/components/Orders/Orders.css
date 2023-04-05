@@ -1,3 +1,12 @@
 .review-container{
  margin: 5% auto;
 }
+.btn-proceed{
+ margin-top: 3%;
+ background-color: rgb(231, 148, 148);
+ color: white;
+ width: 100%;
+}
+.btn-proceed:hover{
+ background-color: green;
+}
